@@ -121,4 +121,30 @@ class Labyrinthe
     {
         return endY;
     }
+
+   // Setters 
+    public void setGrille(char[][] grille) 
+    {
+        this.grille = grille;
+    }
+
+    public void setStartX(int startX) 
+    {
+        this.startX = startX;
+    }
+
+    public void setStartY(int startY) 
+    {
+        this.startY = startY;
+    }
+
+    public void setEndX(int endX) 
+    {
+        this.endX = endX;
+    }
+
+    public void setEndY(int endY) 
+    {
+        this.endY = endY;
+    }
 }

@@ -2,6 +2,8 @@ import java.util.Stack;
 
 class DFSSolver 
 {
+    private static int steps;
+    
     // Methode qui permet de resoudre le Labyrinthe avec l'algorithme DFS
     public static boolean solve(Labyrinthe lab) 
     {
@@ -9,7 +11,7 @@ class DFSSolver
         boolean[][] visite = new boolean[grille.length][grille[0].length];
         Stack<int[]> stack = new Stack<>();
         stack.push(new int[]{lab.getStartX(), lab.getStartY()});
-        int steps = 0;
+        steps = 0;
         long startTime = System.nanoTime();
 
         while (!stack.isEmpty()) 
@@ -38,4 +40,14 @@ class DFSSolver
         }
         return false;
     }
+    
+    // Getter pour récupérer le nombre d'étapes
+    public static int getSteps() {
+        return steps;
+    }
 }
+
+
+
+
+

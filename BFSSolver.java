@@ -3,6 +3,8 @@ import java.util.Queue;
 
 class BFSSolver 
 {
+    private static int steps;
+    
     // Methode qui permet de resoudre le Labyrinthe avec la methode de BFS
     public static boolean solve(Labyrinthe lab) 
     {
@@ -10,7 +12,7 @@ class BFSSolver
         boolean[][] visite = new boolean[grille.length][grille[0].length];
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{lab.getStartX(), lab.getStartY()});
-        int steps = 0;
+        steps = 0;
         long startTime = System.nanoTime();
 
         while (!queue.isEmpty()) 
@@ -39,4 +41,14 @@ class BFSSolver
         }
         return false;
     }
+    
+    // Getter pour récupérer le nombre d'étapes
+    public static int getSteps() {
+        return steps;
+    }
 }
+
+
+
+
+
