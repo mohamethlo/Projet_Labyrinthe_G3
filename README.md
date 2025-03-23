@@ -10,6 +10,14 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - Visualisation des solutions avec interface graphique
 - Comparaison des performances (temps d'exécution et nombre d'étapes)
 - Mode terminal pour les environnements sans interface graphique
+  
+### Représentation du labyrinthe
+
+- `#` : Mur
+- `S` : Point de départ (Start)
+- `E` : Point d'arrivée (End)
+- `+` : Chemin de la solution
+- `=` : Case libre
 
 ### Captures d'écran
 
@@ -47,17 +55,9 @@ Avantages:
 - Java JDK 8 ou supérieur
 
 #### Compilation et Exécution
-- `ls && javac TestLabyrinthe.java && java TestLabyrinthe`
+- `javac TestLabyrinthe.java && java TestLabyrinthe`
 
 Suivez les instructions à l'écran pour choisir le mode d'affichage (interface graphique ou terminal).
-
-### Représentation du labyrinthe
-
-- `#` : Mur
-- `S` : Point de départ (Start)
-- `E` : Point d'arrivée (End)
-- `+` : Chemin de la solution
-- `=` : Case libre
 
 ### Personnalisation
 
