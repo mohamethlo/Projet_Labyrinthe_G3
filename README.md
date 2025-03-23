@@ -3,10 +3,10 @@
 - Mohameth LO
 - Zeinebou El Wely CHEIKH ABD EDAIM
 
-## Résolution de LabyrintheCe projet implémente une application permettant de visualiser et comparer différents algorithmes de résolution de labyrinthe. Il utilise des algorithmes classiques de parcours de graphe (BFS et DFS) pour trouver un chemin entre un point de départ et un point d'arrivée dans un labyrinthe.
+## Résolution de Labyrinthe
+Ce projet implémente une application permettant de visualiser et comparer différents algorithmes de résolution de labyrinthe. Il utilise des algorithmes classiques de parcours de graphe (BFS et DFS) pour trouver un chemin entre un point de départ et un point d'arrivée dans un labyrinthe.
 
-## Fonctionnalités
-
+## Fonctionnalité
 - Génération aléatoire de labyrinthes
 - Résolution automatique avec deux algorithmes différents:
   - BFS (Breadth-First Search / Parcours en largeur)
