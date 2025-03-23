@@ -1,4 +1,4 @@
-### Groupe 3
+## Groupe 3
 - Marvin Lloyd KOUTELE
 - Mohameth LO
 - Zeinebou El Wely CHEIKH ABD EDAIM
