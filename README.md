@@ -1,4 +1,3 @@
-
 ### Résolution de Labyrinthe
 Ce projet implémente une application permettant de visualiser et comparer différents algorithmes de résolution de labyrinthe. Il utilise des algorithmes classiques de parcours de graphe (BFS et DFS) pour trouver un chemin entre un point de départ et un point d'arrivée dans un labyrinthe.
 
@@ -10,6 +9,16 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - Visualisation des solutions avec interface graphique
 - Comparaison des performances (temps d'exécution et nombre d'étapes)
 - Mode terminal pour les environnements sans interface graphique
+  
+### Représentation du labyrinthe
+#### Mode console 
+
+- `#` : Mur
+- `S` : Point de départ (Start)
+- `E` : Point d'arrivée (End)
+- `+` : Chemin de la solution
+- `=` : Case libre
+*![Image](https://github.com/user-attachments/assets/c6e77076-b5ba-4d12-aef8-b46b8b694a73)*
 
 ### Captures d'écran
 
@@ -47,17 +56,9 @@ Avantages:
 - Java JDK 8 ou supérieur
 
 #### Compilation et Exécution
-- `ls && javac TestLabyrinthe.java && java TestLabyrinthe`
+- `javac TestLabyrinthe.java && java TestLabyrinthe`
 
 Suivez les instructions à l'écran pour choisir le mode d'affichage (interface graphique ou terminal).
-
-### Représentation du labyrinthe
-
-- `#` : Mur
-- `S` : Point de départ (Start)
-- `E` : Point d'arrivée (End)
-- `+` : Chemin de la solution
-- `=` : Case libre
 
 ### Personnalisation
 
