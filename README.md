@@ -27,14 +27,14 @@ Le projet est organisé en plusieurs classes Java:
 
 ### Explication des algorithmes
 
-### BFS (Breadth-First Search)
+#### BFS (Breadth-First Search)
 L'algorithme BFS explore le labyrinthe niveau par niveau, en visitant d'abord tous les voisins directs d'une case avant de passer aux cases suivantes. Il utilise une file d'attente (Queue) pour stocker les cellules à visiter.
 
 Avantages:
 - Garantit de trouver le chemin le plus court
 - Très efficace pour les labyrinthes avec beaucoup de chemins possibles
 
-### DFS (Depth-First Search)
+#### DFS (Depth-First Search)
 L'algorithme DFS explore le labyrinthe en profondeur, en suivant un chemin aussi loin que possible avant de revenir en arrière. Il utilise une pile (Stack) pour stocker les cellules à visiter.
 
 Avantages:
@@ -43,10 +43,10 @@ Avantages:
 
 ### Comment exécuter le projet
 
-### Prérequis
+#### Prérequis
 - Java JDK 8 ou supérieur
 
-### Compilation et Exécution
+#### Compilation et Exécution
 - `ls && javac TestLabyrinthe.java && java TestLabyrinthe`
 
 Suivez les instructions à l'écran pour choisir le mode d'affichage (interface graphique ou terminal).
