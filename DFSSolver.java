@@ -42,12 +42,8 @@ class DFSSolver
     }
     
     // Getter pour récupérer le nombre d'étapes
-    public static int getSteps() {
+    public static int getSteps() 
+    {
         return steps;
     }
 }
-
-
-
-
-

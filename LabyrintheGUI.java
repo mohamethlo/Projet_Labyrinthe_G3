@@ -123,19 +123,26 @@ class LabyrintheGUI extends JFrame
             StringBuilder sb = new StringBuilder();
             sb.append("Comparaison: ");
             
-            if (dfsSolved) {
+            if (dfsSolved) 
+            {
                 sb.append("DFS a termine en ").append(dfsSteps).append(" etapes et ").append(dfsTime).append(" ms. ");
-            } else {
+            } 
+            else 
+            {
                 sb.append("DFS n a pas trouve de solution. ");
             }
             
-            if (bfsSolved) {
+            if (bfsSolved) 
+            {
                 sb.append("BFS a termine en ").append(bfsSteps).append(" etapes et ").append(bfsTime).append(" ms. ");
-            } else {
+            } 
+            else 
+            {
                 sb.append("BFS n a pas trouve de solution. ");
             }
             
-            if (dfsSolved && bfsSolved) {
+            if (dfsSolved && bfsSolved) 
+            {
                 String faster = dfsTime < bfsTime ? "DFS" : "BFS";
                 String efficient = dfsSteps < bfsSteps ? "DFS" : "BFS";
                 sb.append("\nResultat: ").append(faster).append(" etait plus rapide en temps, et ").append(efficient).append(" a utilise moins d'etapes.");
@@ -174,9 +181,11 @@ class LabyrintheGUI extends JFrame
     }
 
     // Méthode pour copier une grille
-    private char[][] copyGrid(char[][] original) {
+    private char[][] copyGrid(char[][] original) 
+    {
         char[][] copy = new char[original.length][original[0].length];
-        for (int i = 0; i < original.length; i++) {
+        for (int i = 0; i < original.length; i++) 
+        {
             System.arraycopy(original[i], 0, copy[i], 0, original[i].length);
         }
         return copy;
@@ -222,13 +231,3 @@ class LabyrintheGUI extends JFrame
         return panel;
     }
 }
-
-
-
-
-
-
-
-
-
-
