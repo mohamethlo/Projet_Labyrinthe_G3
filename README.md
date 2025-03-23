@@ -1,4 +1,4 @@
-##Résolution de Labyrinthe
+## Résolution de Labyrinthe
 
 Ce projet implémente une application permettant de visualiser et comparer différents algorithmes de résolution de labyrinthe. Il utilise des algorithmes classiques de parcours de graphe (BFS et DFS) pour trouver un chemin entre un point de départ et un point d'arrivée dans un labyrinthe.
 
