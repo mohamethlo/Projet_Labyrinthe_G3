@@ -47,12 +47,8 @@ Avantages:
 ### Prérequis
 - Java JDK 8 ou supérieur
 
-### Compilation
-javac *.java
-
-
-### Exécution
-java TestLabyrinthe
+### Compilation et Exécution
+ls && javac TestLabyrinthe.java && java TestLabyrinthe 
 
 Suivez les instructions à l'écran pour choisir le mode d'affichage (interface graphique ou terminal).
 
@@ -71,10 +67,6 @@ Vous pouvez modifier la taille du labyrinthe en changeant les paramètres dans l
 ```java
 Labyrinthe lab = new Labyrinthe(10, 10);  // Hauteur, Largeur
 ```
-
-## Contribution
-
-Les contributions sont les bienvenues! N'hésitez pas à soumettre des pull requests pour améliorer le projet.
 
 ## Idées d'améliorations futures
 
