@@ -11,16 +11,22 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - Mode terminal pour les environnements sans interface graphique
   
 ### Représentation du labyrinthe
-#### Mode console 
+#### Mode Terminal 
 
 - `#` : Mur
 - `S` : Point de départ (Start)
 - `E` : Point d'arrivée (End)
 - `+` : Chemin de la solution
 - `=` : Case libre
-*![Image](https://github.com/user-attachments/assets/c6e77076-b5ba-4d12-aef8-b46b8b694a73)*
+*![Image](https://github.com/user-attachments/assets/ffaa2c20-af3f-4498-ad0b-b3bda36243eb)*
 
-### Captures d'écran
+#### Inerface Graphique
+
+- `Couleur Noir` : Mur
+- `Couleur Bleu` : Point de départ (Start)
+- `Couleur Rouge` : Point d'arrivée (End)
+- `Couleur Jaune` : Chemin de la solution
+- `Couleur blanche` : Case libre
 
 *![Image](https://github.com/user-attachments/assets/c6e77076-b5ba-4d12-aef8-b46b8b694a73)*
 
