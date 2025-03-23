@@ -1,3 +1,9 @@
+#Groupe 3 
+-mjhh
+- Marvin Lloyd KOUTELE
+- Mohameth LO
+- Zeinebou El Wely CHEIKH ABD EDAIM
+
 ## Résolution de Labyrinthe
 
 Ce projet implémente une application permettant de visualiser et comparer différents algorithmes de résolution de labyrinthe. Il utilise des algorithmes classiques de parcours de graphe (BFS et DFS) pour trouver un chemin entre un point de départ et un point d'arrivée dans un labyrinthe.
@@ -48,7 +54,7 @@ Avantages:
 - Java JDK 8 ou supérieur
 
 ### Compilation et Exécution
-- 'ls && javac TestLabyrinthe.java && java TestLabyrinthe'
+- `ls && javac TestLabyrinthe.java && java TestLabyrinthe`
 
 Suivez les instructions à l'écran pour choisir le mode d'affichage (interface graphique ou terminal).
 
@@ -77,4 +83,4 @@ Labyrinthe lab = new Labyrinthe(10, 10);  // Hauteur, Largeur
 - Implémenter un système de sauvegarde/chargement de labyrinthes personnalisés
 
 
-Projet réalisé dans le cadre de [insérer contexte, par exemple: cours d'algorithmes, projet personnel, etc.]
+Projet réalisé dans le cadre d'un projet de groupe en Master 1 GLSI
