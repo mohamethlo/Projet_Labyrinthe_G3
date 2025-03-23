@@ -1,4 +1,4 @@
-#Groupe 3 
+### Groupe 3
 - Marvin Lloyd KOUTELE
 - Mohameth LO
 - Zeinebou El Wely CHEIKH ABD EDAIM
@@ -12,7 +12,7 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - Génération aléatoire de labyrinthes
 - Résolution automatique avec deux algorithmes différents:
   - BFS (Breadth-First Search / Parcours en largeur)
-    -hgh
+    - hgh
   - DFS (Depth-First Search / Parcours en profondeur)
 - Visualisation des solutions avec interface graphique
 - Comparaison des performances (temps d'exécution et nombre d'étapes)
