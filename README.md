@@ -12,6 +12,7 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - Mode terminal pour les environnements sans interface graphique
 
 ## Captures d'écran
+![Image](https://github.com/user-attachments/assets/c6e77076-b5ba-4d12-aef8-b46b8b694a73)
 
 *[Insérer ici une capture d'écran de l'application]*
 
