@@ -18,6 +18,7 @@ Ce projet implémente une application permettant de visualiser et comparer diff�
 - `E` : Point d'arrivée (End)
 - `+` : Chemin de la solution
 - `=` : Case libre
+  
 *![Image](https://github.com/user-attachments/assets/ffaa2c20-af3f-4498-ad0b-b3bda36243eb)*
 
 #### Inerface Graphique
